@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="12.jpg" />
+    <None Remove="bravo.jpg" />
+    <None Remove="icons8-search-90.png" />
+    <None Remove="icons8-shopping-cart-80.png" />
+    <None Remove="Images\alpengold-sokolad.jpg" />
+    <None Remove="Images\alpengold.png" />
+    <None Remove="Images\coca-cola-original-20oz.png" />
+    <None Remove="Images\fanta-orange_product_image_v2.jpg" />
+    <None Remove="Images\icons8-buy-sign-64.png" />
+    <None Remove="Images\icons8-reset-100.png" />
+    <None Remove="Images\mnms.jpg" />
+    <None Remove="Images\nescafe.jpg" />
+    <None Remove="Images\snickers.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\12.jpg" />
+    <Resource Include="Images\alpengold-sokolad.jpg" />
+    <Resource Include="Images\alpengold.png" />
+    <Resource Include="Images\bravo.jpg" />
+    <Resource Include="Images\coca-cola-original-20oz.png" />
+    <Resource Include="Images\fanta-orange_product_image_v2.jpg" />
+    <Resource Include="Images\icons8-buy-sign-64.png" />
+    <Resource Include="Images\icons8-reset-100.png" />
+    <Resource Include="Images\icons8-search-90.png" />
+    <Resource Include="Images\icons8-shopping-cart-80.png" />
+    <Resource Include="Images\mnms.jpg" />
+    <Resource Include="Images\nescafe.jpg" />
+    <Resource Include="Images\snickers.jpg" />
+  </ItemGroup>
+
+</Project>
